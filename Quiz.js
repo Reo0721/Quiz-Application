@@ -64,9 +64,10 @@ const clickHandler = (e) => {
   if (quizIndex < quizLength) {
     setupQuize();
   } else {
-    window.alert(
-      "終了！あたなの正解数は" + score + "/" + quizLength + "です！"
-    );
+    // window.alert(
+    //   "終了！あたなの正解数は" + score + "/" + quizLength + "です！"
+    // );
+    window.alert(`終了！あなたの正解数は${score}/${quizLength}です！`);
   }
 };
 
